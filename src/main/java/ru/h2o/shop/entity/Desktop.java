@@ -5,7 +5,7 @@ import jakarta.persistence.Entity;
 import lombok.Data;
 
 @Entity
-@DiscriminatorValue("Desktop")
+@DiscriminatorValue("desktop")
 @Data
 public class Desktop extends Product {
     private String formFactor;
